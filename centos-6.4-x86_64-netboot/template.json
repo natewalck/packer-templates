@@ -5,7 +5,6 @@
       "scripts": [
         "scripts/virtualbox.sh",
         "scripts/vmware.sh",
-        "scripts/munki.sh",
         "scripts/cleanup.sh",
         "scripts/zerodisk.sh"
       ],
@@ -45,5 +44,5 @@
         "cpuid.coresPerSocket": "1"
       }
     }
-  ],
+  ]
 }
