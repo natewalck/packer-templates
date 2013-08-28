@@ -5,16 +5,16 @@
       "scripts": [
         "scripts/virtualbox.sh",
         "scripts/vmware.sh",
-        "scripts/vagrant.sh",
+        "scripts/munki.sh",
         "scripts/cleanup.sh",
         "scripts/zerodisk.sh"
       ],
       "override": {
         "virtualbox": {
-          "execute_command": "echo 'vagrant'|sudo -S sh '{{.Path}}'"
+          "execute_command": "echo 'munki'|sudo -S sh '{{.Path}}'"
         },
         "vmware": {
-          "execute_command": "echo 'vagrant'|sudo -S sh '{{.Path}}'"
+          "execute_command": "echo 'munki'|sudo -S sh '{{.Path}}'"
         }
       }
     }
@@ -33,11 +33,11 @@
       "iso_checksum_type": "md5",
       "iso_url": "http://mirror.rit.edu/centos/6.4/isos/x86_64/CentOS-6.4-x86_64-netinstall.iso",
       "skip_compaction": true,
-      "ssh_username": "vagrant",
-      "ssh_password": "vagrant",
+      "ssh_username": "munki",
+      "ssh_password": "munki",
       "ssh_port": 22,
       "ssh_wait_timeout": "10000s",
-      "shutdown_command": "echo '/sbin/halt -h -p' > shutdown.sh; echo 'vagrant'|sudo -S sh 'shutdown.sh'",
+      "shutdown_command": "echo '/sbin/halt -h -p' > shutdown.sh; echo 'munki'|sudo -S sh 'shutdown.sh'",
       "tools_upload_flavor": "linux",
       "vmx_data": {
         "memsize": "480",
