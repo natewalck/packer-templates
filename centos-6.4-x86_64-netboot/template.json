@@ -3,15 +3,11 @@
     {
       "type": "shell",
       "scripts": [
-        "scripts/virtualbox.sh",
         "scripts/vmware.sh",
         "scripts/cleanup.sh",
         "scripts/zerodisk.sh"
       ],
       "override": {
-        "virtualbox": {
-          "execute_command": "echo 'munki'|sudo -S sh '{{.Path}}'"
-        },
         "vmware": {
           "execute_command": "echo 'munki'|sudo -S sh '{{.Path}}'"
         }
