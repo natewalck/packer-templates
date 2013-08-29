@@ -4,6 +4,7 @@
       "type": "shell",
       "scripts": [
         "scripts/vmware.sh",
+        "scripts/configure.sh",
         "scripts/cleanup.sh",
         "scripts/zerodisk.sh"
       ],
