@@ -35,6 +35,7 @@
       "ssh_wait_timeout": "10000s",
       "shutdown_command": "echo '/sbin/halt -h -p' > shutdown.sh; echo 'munki'|sudo -S sh 'shutdown.sh'",
       "tools_upload_flavor": "linux",
+      "vm_name": "munkiappliance",
       "vmx_data": {
         "memsize": "480",
         "numvcpus": "1",
