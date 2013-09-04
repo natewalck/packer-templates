@@ -22,7 +22,7 @@
         "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"
       ],
       "boot_wait": "10s",
-      "disk_size": 20480,
+      "disk_size": 214016,
       "guest_os_type": "rhel6-64",
       "http_directory": "http",
       "iso_checksum": "bb9af2aea1344597e11070abe6b1fcd3",
@@ -37,8 +37,8 @@
       "tools_upload_flavor": "linux",
       "vm_name": "munkiappliance",
       "vmx_data": {
-        "memsize": "480",
-        "numvcpus": "1",
+        "memsize": "1024",
+        "numvcpus": "2",
         "cpuid.coresPerSocket": "1"
       }
     }
