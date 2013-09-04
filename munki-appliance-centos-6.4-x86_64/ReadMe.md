@@ -11,7 +11,7 @@ Once the basic setup above is complete, you can start importing software into th
 
 ##### Ports #####
 * munki - 80
-* munki - 8000
+* munkiwebadmin - 8000
 
 
 ##### Login info #####
