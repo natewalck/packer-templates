@@ -9,16 +9,21 @@ This Munki Virtual Appliance is provided in .ova format. To use the appliance:
 
 Once the basic setup above is complete, you can start importing software into the appliance and using it.
 
-Login info for the appliance is as follows:
+##### Ports #####
+* munki - 80
+* munki - 8000
 
-##### ssh #####
+
+##### Login info #####
+
+###### ssh ######
 * username: munki
 * password: munki
 
-##### smb #####
+###### smb ######
 * username: munki
 * password: 123456
 
-##### MunkiWebAdmin #####
+###### MunkiWebAdmin ######
 * username: munkiwebadmin
 * password: 123456
