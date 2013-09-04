@@ -12,13 +12,13 @@ Once the basic setup above is complete, you can start importing software into th
 Login info for the appliance is as follows:
 
 ##### ssh #####
-username: munki
-password: munki
+* username: munki
+* password: munki
 
 ##### smb #####
-username: munki
-password: 123456
+* username: munki
+* password: 123456
 
 ##### MunkiWebAdmin #####
-username: munkiwebadmin
-password: 123456
+* username: munkiwebadmin
+* password: 123456
